@@ -228,7 +228,7 @@ margin-bottom: 50px;
 }
 
 .about-item {
-  flex-basis: calc((100% - 90px) / 4);
+  /* flex-basis: calc((100% - 90px) / 4); */
 }
 
 .about-title-item {
@@ -249,20 +249,21 @@ font-size: 14px;
 line-height: 1.7143;
 }
 
+.about-logo-container {
+  display: flex;
+  background: var(--fourth-bg-color);
+  border-radius: 4px;
+  flex-basis: calc((100% - 90px) / 4);
+}
+
+
 .about-logo{
+  box-sizing: content-box;
   width: 70px;
   height: 70px;
   margin: auto;
   padding-top: 25px;
   padding-bottom: 25px;
-}
-
-.about-logo-container {
-  display: flex;
-  margin: 0 auto;
-  background: var(--fourth-bg-color);
-  border-radius: 4px;
-  flex-basis: calc((100% - 90px) / 4);
 }
 
 .business { 
